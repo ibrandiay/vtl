@@ -1,9 +1,7 @@
-# Cuda backend for VTL
-Voici l'architecture réécrite en format Markdown pour votre README :
+# CUDA Backend for VTL
 
-```markdown
-## Structure du répertoire backend/cuda/
-
+## Repository Structure for backend/cuda/
+```
 backend/cuda/
 ├── src/
 │   ├── kernels/
@@ -27,16 +25,16 @@ backend/cuda/
 └── build/
 ```
 
-### Description des dossiers
+### Directory Descriptions
 
-- `src/`: Code source principal
-  - `kernels/`: Kernels CUDA (.cu files)
-  - `memory/`: Gestion de la mémoire GPU
-  - `utils/`: Utilitaires (gestion des erreurs, etc.)
-  - `cuda_wrapper.v`: Wrapper principal pour les fonctions CUDA
-- `include/`: Fichiers d'en-tête pour l'API CUDA en V
-- `tests/`: Tests unitaires et de performance
-- `examples/`: Exemples d'utilisation du backend CUDA
-- `docs/`: Documentation du backend
-- `build/`: Fichiers générés lors de la compilation
+- `src/`: Main source code
+  - `kernels/`: CUDA kernels (.cu files)
+  - `memory/`: GPU memory management
+  - `utils/`: Utilities (error handling, etc.)
+  - `cuda_wrapper.v`: Main wrapper for CUDA functions
+- `include/`: Header files for CUDA API in V
+- `tests/`: Unit tests and performance tests
+- `examples/`: Examples of CUDA backend usage
+- `docs/`: Backend documentation
+- `build/`: Files generated during compilation
 ```
